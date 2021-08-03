@@ -1,18 +1,18 @@
 {
-  "name": "type-steamapi",
-  "version": "0.9.46",
-  "description": "Steam API wrapper created with typescript",
+  "name": "@andzno1/type-steamapi",
+  "version": "0.9.50",
+  "description": "Steam API wrapper created with TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "tsc && ts-node ./src/index.ts",
     "watch:ts": "tsc -w",
     "watch:js": "nodemon",
-    "postinstall": "tsc",
     "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tekkenthuuug/type-steamapi.git"
+    "url": "git+https://github.com/andzno1/type-steamapi.git"
   },
   "keywords": [
     "typescript",
@@ -23,12 +23,12 @@
     "graphql",
     "type-graphql"
   ],
-  "author": "tekkenthuuug <sa.soto317@gmail.com> (https://github.com/tekkenthuuug)",
+  "author": "andz (https://github.com/andzno1)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tekkenthuuug/type-steamapi/issues"
+    "url": "https://github.com/andzno1/type-steamapi/issues"
   },
-  "homepage": "https://github.com/tekkenthuuug/type-steamapi#readme",
+  "homepage": "https://github.com/andzno1/type-steamapi#readme",
   "devDependencies": {
     "@types/node-fetch": "^2.5.7",
     "nodemon": "^2.0.4",
@@ -39,6 +39,7 @@
     "graphql": "^15.3.0",
     "node-fetch": "^2.6.1",
     "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.1.0",
     "type-graphql": "^1.0.0"
   }
 }

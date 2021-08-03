@@ -398,10 +398,10 @@ class SteamAPI {
   }
 }
 
-// const steam = new SteamAPI({ apiKey: 'dddd' });
+// const steam = new SteamAPI({ apiKey: 'FD5299BA7DBC1FF9421D5F2CFA24A328' });
 
 (async () => {
-  // const steamid = await steam.resolve('id/tekkenthuuug/');
+  // const steamid = await steam.resolve('id/andzno1/');
   // console.log(steamid);
   // const featuredCategories = await steam.getFeaturedCategories();
   // console.log(featuredCategories);
@@ -438,7 +438,7 @@ class SteamAPI {
   // const userStats = await steam.getUserStats(steamid, '730');
   // console.log(userStats);
   // const userSummaries = await steam.getUserSummary(steamid);
-  // console.log(userSummaries);
+  // console.log('userSummaries xDD:', userSummaries);
 })();
 
 export default SteamAPI;
