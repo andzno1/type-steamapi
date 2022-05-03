@@ -85,10 +85,6 @@ When enabling cache, **responses for getAppDetails and resolve methods would be 
 
 All interfaces, types, and classes could be accessed.
 
-### Type GraphQL
-
-Full type-graphql support would be added some day. Currently it is working only for some classes.
-
 ```
 import  { OwnedGame }  from  'type-steamapi'
 ```
