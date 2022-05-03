@@ -6,13 +6,13 @@
 # Installation
 
 ```
-npm install type-steamapi
+npm install @andzno1/type-steamapi
 ```
 
 or if you are using yarn
 
 ```
-yarn add type-steamapi
+yarn add @andzno1/type-steamapi
 ```
 
 #### Typescript
