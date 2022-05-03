@@ -8,7 +8,7 @@
     "start": "tsc && ts-node ./src/index.ts",
     "watch:ts": "tsc -w",
     "watch:js": "nodemon",
-    "prepublish": "tsc"
+    "prepublish": " rm -r ./dist && tsc"
   },
   "repository": {
     "type": "git",
