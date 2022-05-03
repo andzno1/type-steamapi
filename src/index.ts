@@ -438,7 +438,7 @@ class SteamAPI {
   // const userStats = await steam.getUserStats(steamid, '730');
   // console.log(userStats);
   // const userSummaries = await steam.getUserSummary(steamid);
-  // console.log('userSummaries xDD:', userSummaries);
+  // console.log('userSummaries:', userSummaries);
 })();
 
 export default SteamAPI;
